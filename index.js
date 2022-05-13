@@ -59,17 +59,13 @@ function Student(name,cls,rollno ){
 
 }
 
-let stu1 = new Student("Niraj",3, 21);
-let stu2 = new Student("Prem", 4, 22);
-let stu3 = new Student("Pawan", 5, 23);
-let stu4 = new Student("Pooja", 6, 24);
-let stu5 = new Student("Prince",7, 25);
-let stu6 = new Student("Prince",8, 26);
+let student = [ new Student("Niraj",3, 21),
+                new Student("Prem", 4, 22),
+                new Student("Pawan", 5, 23),
+                new Student("Pooja", 6, 24),
+                new Student("Prince",7, 25),
+                new Student("Prince",8, 26),];
 
- console.log(Object.values(stu1));
-console.log(Object.values(stu2));
-console.log(Object.values(stu3));
-console.log(Object.values(stu4));
-console.log(Object.values(stu5));
-console.log(Object.values(stu6));
+
+console.log(student);
 
